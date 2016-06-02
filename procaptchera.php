@@ -54,7 +54,7 @@ echo '
             <input type="submit" />
 </form>';
 
-$captchatype = "math";
+//$captchatype = "math";
 }
 
 function procaptchera_GenerateImageQuestion()
