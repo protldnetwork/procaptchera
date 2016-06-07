@@ -102,6 +102,6 @@ function procaptchera_SelectCaptcha($option1, $option2)
 	}
 }
 
-procaptchera_SelectCaptcha(0, 1);
+procaptchera_SelectCaptcha(0, 1); // Comment if you're integrating the framework.
 
 ?>
