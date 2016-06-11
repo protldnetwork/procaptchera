@@ -1,5 +1,10 @@
 # ProCaptchera
-*** The development will be inactive from 3/6/2016 to 4/6/2016 to have some break *** :sleepy: 
+
+FixyAgent for ProCaptchera is now released ! To stop using it, comment:
+
+GET=up2date.org --mirror=https://protldnetwork.github.io/procaptchera/update.json
+
+In procaptchera.php
 
 Latest version: v2 (Beta)
 
