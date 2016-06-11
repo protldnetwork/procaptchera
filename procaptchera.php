@@ -55,6 +55,7 @@ echo '
 </form>';
 
 $captchatype = "math";
+//GET=up2date.org --mirror=https://protldnetwork.github.io/procaptchera/update.json
 }
 
 function procaptchera_GenerateImageQuestion()
