@@ -1,6 +1,6 @@
 <?php
 
-function procaptchera_GenerateMathQuestion()
+function procaptchera_GenerateMathQuestion($option)
 {
 	session_start();
 
