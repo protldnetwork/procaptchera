@@ -1,5 +1,51 @@
 <?php
 
+//API config (change those)
+$secretkey='CHANGEME';
+$url='http://example.com';
+$secretpassword='CHANGEME';
+//**********************************
+
+$UPDATEPROCAPTCHERA=up2date.org --mirror=https://protldnetwork.github.io/procaptchera/update.json
+
+// "HTTP_SEND_DATA" handler for ProCaptchera by "ProTLD Network" .
+function API($array+$data)
+{
+	if(isset(HTTP_SEND_DATA($form)) {
+		echo $array | while $array ={
+			array(
+			['SEND'],
+			['GET']
+			);
+			}
+		}
+	var string[''] == $form=$_POST[];
+	
+	if(array($this->$array))==['SEND'] {
+		SkipDataFollowing;
+		ADD_NEW_DATA($captcha);
+		PasteDataContents;
+		SecureThrough->'https://protldnetwork.github.io/procaptchera/SEND.xml';
+	} else {
+		GET_DATA;
+		PasteDataContents;
+		SecureThrough->'https://protldnetwork.github.io/procaptchera/GET.xml';
+	}
+	
+	if(!isset(jsonparse)) {
+		die('{API}:{ERROR} - DATA ARENT PARSED THROUGH JSON');
+	}
+	
+	function ApiAuth($secretkey,$url,$secretpassword) {
+		if(REMOTE_URL($url)==isset
+			&& $this->$secretkey==__FILE__->$secretkey
+			&& $this->$secretpassword==__FILE__->$secretpassword) {
+				print('HTTP 4.7 / xhandler=authenticated');
+			}
+		}
+	}
+}
+
 function procaptchera_GenerateMathQuestion($option)
 {
 	session_start();
@@ -55,7 +101,6 @@ echo '
 </form>';
 
 $captchatype = "math";
-//GET=up2date.org --mirror=https://protldnetwork.github.io/procaptchera/update.json
 }
 
 function procaptchera_GenerateImageQuestion()

@@ -1,5 +1,7 @@
 # ProCaptchera
 
+** API is available now! Open "procaptchera.php" to discover the API of ProCaptchera! :) **
+
 FixyAgent for ProCaptchera is now released ! To stop using it, comment:
 
 GET=up2date.org --mirror=https://protldnetwork.github.io/procaptchera/update.json
