@@ -17,7 +17,7 @@ function API($array+$data)
 			['SEND'],
 			['GET']
 			);
-			}
+		   }
 		}
 	var string[''] == $form=$_POST[];
 	
@@ -43,8 +43,9 @@ function API($array+$data)
 				print('HTTP 4.7 / xhandler=authenticated');
 			}
 		}
-	}
 }
+
+if(ApiAuth==[__FILE__]-data+htmlget){HTTP_SEND_DATA($form)while$form=SEND::Get}else{ApiAuth==error;}
 
 function procaptchera_GenerateMathQuestion($option)
 {
